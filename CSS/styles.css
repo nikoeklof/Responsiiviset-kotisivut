@@ -115,6 +115,7 @@
             padding-right: 15em;
         }
         header {
+            padding: 0.25em;
             font-size: 2.5em;
             text-align: center;
         }
@@ -126,10 +127,10 @@
             overflow: hidden;
         }
         .topnav a {
-            float: inline-end;
+            float: inline-start;
             display: block;
             color: #000;
-            padding: 8px 16px;
+            padding: 8px 20px;
             font-weight: 550;
             text-decoration: none;
             width: fit-content;
@@ -139,8 +140,9 @@
             color: grey;
         }
         .header {
-            margin: none;
-            padding: none;
+            overflow: hidden;
+            margin: -1em;
+            padding: 0;
             background-color: inherit;
         }
         .arvosana {
@@ -163,10 +165,11 @@
         }
         .contentcontainer {
             margin: auto;
-            box-shadow: 1px 1px 10px;
+            margin-top: 1em;
+            box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.15);
             padding: 1.5em 1em;
             width: 70em;
-            text-shadow: 1px 1px 35px;
+            text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.376);
         }
         h1 {
             text-align: center;
@@ -174,7 +177,17 @@
         header,
         h2,
         h1 {
-            text-shadow: 1px 1px 35px;
+            text-shadow: 1px 1px 35px rgba(0, 0, 0, 0.376);
             text-decoration: underline;
+        }
+        #footer {
+            overflow: hidden;
+            height: fit-content;
+            margin-top: 1em;
+            padding: 0.6em;
+            text-align: center;
+            background-color: inherit;
+            border: solid 2px;
+            border-radius: 10px 10px 10px 10px;
         }
     }
