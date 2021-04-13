@@ -1,0 +1,180 @@
+    @media screen and (max-width: 999px) {
+        .taulukko {
+            width: auto !important;
+            border-style: dotted;
+            border-width: 1px;
+            overflow-x: auto;
+        }
+        .taulukko col {
+            width: auto !important;
+        }
+        #footer {
+            position: static;
+            height: fit-content;
+            bottom: 0;
+            padding: 0.6em;
+            text-align: center;
+            background-color: inherit;
+            border: solid 2px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        header,
+        h3,
+        h2,
+        h1 {
+            text-shadow: 0px 0px 15px rgba(17, 17, 17, 0.301);
+            text-decoration: underline;
+        }
+        thead,
+        th,
+        td {
+            padding: 0.25em;
+            width: auto !important;
+            border-style: solid;
+            border-width: 2px;
+            overflow: hidden;
+            color: rgb(0, 0, 0);
+        }
+        .active {
+            background-color: rgba(53, 52, 52, 0.609);
+            color: rgb(255, 255, 255);
+        }
+        .topnav {
+            padding: 0.75em;
+            overflow: hidden;
+        }
+        .topnav a {
+            align-self: center;
+            overflow: hidden;
+            width: fit-content;
+            margin: auto;
+            padding: auto;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(130, 130, 158, 0.329);
+        }
+        body {
+            width: fit-content;
+            margin: auto;
+            padding: auto;
+        }
+        a {
+            width: max-content;
+            display: block;
+            color: #000;
+            padding: 8px 8px;
+            text-shadow: 1px 0.25em 20px rgba(80, 80, 80, 0.548);
+            text-decoration: none;
+        }
+        .header {
+            margin: none;
+            padding: none;
+            background-color: inherit;
+        }
+        header {
+            padding: 0.1em;
+            text-align: center;
+            font-size: 1.75em;
+        }
+        .contentcontainer {
+            margin: auto;
+            margin-top: 10px;
+            padding-left: 2.5em;
+            padding-right: 2.5em;
+            padding-bottom: 2.5em;
+        }
+        #maincontainer {
+            position: relative;
+            padding: auto;
+            margin: auto;
+            background-color: rgba(196, 255, 242, 0.116);
+        }
+    }
+    
+    @media screen and (min-width: 1000px) {
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: rgba(130, 130, 158, 0.329);
+        }
+        thead,
+        th,
+        td {
+            padding: 0.25em;
+            width: auto !important;
+            border-style: solid;
+            border-width: 2px;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            color: rgb(0, 0, 0);
+        }
+        thead {
+            text-align: left;
+            border-width: 2px;
+            border-style: solid;
+            padding-right: 15em;
+        }
+        header {
+            font-size: 2.5em;
+            text-align: center;
+        }
+        .active {
+            background-color: rgba(66, 66, 66, 0.322);
+            color: grey;
+        }
+        .topnav {
+            overflow: hidden;
+        }
+        .topnav a {
+            float: inline-end;
+            display: block;
+            color: #000;
+            padding: 8px 16px;
+            font-weight: 550;
+            text-decoration: none;
+            width: fit-content;
+        }
+        a:hover {
+            background-color: whitesmoke;
+            color: grey;
+        }
+        .header {
+            margin: none;
+            padding: none;
+            background-color: inherit;
+        }
+        .arvosana {
+            text-align: center;
+        }
+        .taulukko {
+            margin: auto;
+            text-shadow: 1px 1px 35px;
+        }
+        thead,
+        th {
+            border: solid;
+            border-width: 2px;
+            text-align: center;
+            text-shadow: 1px 1px 35px;
+        }
+        #maincontainer {
+            margin: 10px;
+            background-color: rgba(196, 255, 242, 0.116);
+        }
+        .contentcontainer {
+            margin: auto;
+            box-shadow: 1px 1px 10px;
+            padding: 1.5em 1em;
+            width: 70em;
+            text-shadow: 1px 1px 35px;
+        }
+        h1 {
+            text-align: center;
+        }
+        header,
+        h2,
+        h1 {
+            text-shadow: 1px 1px 35px;
+            text-decoration: underline;
+        }
+    }
